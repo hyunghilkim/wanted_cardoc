@@ -24,9 +24,7 @@
 
 
 - [블로그](https://velog.io/@gusrlf14) 
-</br> 
-- [github](https://github.com/hyunghilkim) 
-</br> 
+- [github](https://github.com/hyunghilkim)  
 - [프로젝트 회고]()
 
 
@@ -156,7 +154,7 @@
 </br>
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/38933716/142599090-85aa54f9-dd94-4183-ac2f-43151eac07b6.png" height=850>
+<img src="https://user-images.githubusercontent.com/48472537/143796841-80a85594-b12d-4caf-94c2-2b4b7ec38a28.png" height=850>
 </div>
 
 
