@@ -1,6 +1,4 @@
-
-
-  # 원티드 백엔드 프리온보딩 7차 과제 - 카닥
+# 원티드 백엔드 프리온보딩 7차 과제 - 카닥
 
 </br>
 </br>
@@ -25,7 +23,7 @@
 
 - [블로그](https://velog.io/@gusrlf14) 
 - [github](https://github.com/hyunghilkim)  
-- [프로젝트 회고]()
+- [프로젝트 회고](https://velog.io/@gusrlf14/%EC%9B%90%ED%8B%B0%EB%93%9C-%EC%9C%84%EC%BD%94%EB%93%9C-%ED%94%84%EB%A6%AC%EC%98%A8%EB%B3%B4%EB%94%A9-%EB%B0%B1%EC%97%94%EB%93%9C-7%ED%9A%8C%EC%B0%A8-%EA%B3%BC%EC%A0%9C-%ED%9A%8C%EA%B3%A0)
 
 
 </div>
@@ -97,17 +95,16 @@
 - 레포지토리를 clone 받거나, 압축을 해제한 후 npm install을 통해 환경 셋팅을 진행합니다.
 - npm start를 통해 서버를 구동합니다.
 - src 폴더에 .env 파일을 설정해서, 환경변수를 설정합니다.
-- npm start로 서버를 구동시키고, npm test를 입력하면 단위 테스트가 가능합니다.
   - <details><summary><b>링크 접속불가 시 .env 파일 설정 방법</b></summary>
 
     ```
-    RDS_DATABASE=DB 스키마 명
-    RDS_USERNAME=DB 유저 명
-    RDS_PASSWORD=DB 유저 비밀번호
-    RDS_HOSTNAME=DB 주소
-    RDS_PORT=DB 포트
-    PORT=http서버 포트
-    IS_SQLLITE=false
+    
+    PORT=4000
+    JWT_SECERT="wanted"
+    JWT_ALGO="HS256"
+    HOST="http://localhost:4000"
+    IS_SQLLITE=true
+
     ```
 
 
@@ -122,8 +119,8 @@
 
 - Postman을 활용하여 API 작동 테스트를 진행했습니다. 
 - __배포된 서버 주소__ 및 자세한 API 명세는 아래에서 확인 가능합니다.
-- [🗂 API Description Link](https://documenter.getpostman.com/view/18068137/UVJWpzT4)
-- [![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/18068137/UVJWpzT4) 을 클릭하여 웹브라우저 혹은 Postman 클라이언트에 콜렉션이 로드되면
+- [🗂 API Description Link](https://documenter.getpostman.com/view/6798114/UVJckGqs)
+- [![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/6798114/UVJckGqs) 을 클릭하여 웹브라우저 혹은 Postman 클라이언트에 콜렉션이 로드되면
    1. Variables 탭에서 서버 Host와 Port를 지정합니다. (기본값이 지정되어 있습니다.)
    2. 그후 우측 상단의 Run 버튼을 눌러 RUN ORDER 화면에 진입한 뒤 Run \[Collection Name\]을 클릭하면, 이상적인 상황에서의 테스트가 진행됩니다.
        
@@ -131,23 +128,6 @@
  
 </br>
 </br>
-
-
-## 😎 컨벤션 설정
-
-- [👏🏻 협업을 위한 코드 컨벤션 설정하기](https://overcome-the-limits.tistory.com/entry/%ED%98%91%EC%97%85-%ED%98%91%EC%97%85%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%BD%94%EB%93%9C-%EC%BB%A8%EB%B2%A4%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
-
-- [👏🏻 Prettier, ESLint, Airbnb Style Guide로 코드 컨벤션  설정하기](https://overcome-the-limits.tistory.com/entry/%ED%98%91%EC%97%85-ESLint-Prettier-Airbnb-Style-Guide%EB%A1%9C-%EC%BD%94%EB%93%9C-%EC%BB%A8%EB%B2%A4%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0?category=911197)
-
-- [👏🏻 협업을 위한 git 커밋 컨벤션 설정하기](https://overcome-the-limits.tistory.com/entry/%ED%98%91%EC%97%85-%ED%98%91%EC%97%85%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-git-%EC%BB%A4%EB%B0%8B%EC%BB%A8%EB%B2%A4%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0?category=911197)
-
-- [👏🏻 협업을 위한 Git Flow 설정하기](https://overcome-the-limits.tistory.com/entry/%ED%98%91%EC%97%85-%ED%98%91%EC%97%85%EC%9D%84-%EC%9C%84%ED%95%9C-Git-Flow-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0?category=911197)
-
-- [👏🏻 협업을 위한 Git 명령어 가이드](https://overcome-the-limits.tistory.com/entry/%ED%98%91%EC%97%85-%ED%98%91%EC%97%85%EC%9D%84-%EC%9C%84%ED%95%9C-Git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EA%B0%80%EC%9D%B4%EB%93%9C?category=911197) 
-
-</br>
-</br>
-
 
 ## 🛠 Dependencies
 
