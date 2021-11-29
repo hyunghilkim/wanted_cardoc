@@ -1,4 +1,4 @@
-<div align="center">
+
 
   # 원티드 백엔드 프리온보딩 7차 과제 - 카닥
 
@@ -16,16 +16,16 @@
 <br>
 <br>
 
-<div align='center'>
+
 
 ## 🧑🏻‍💻 소개
 
 <br>
 
 
-- **blog**: [gusrlf14](https://velog.io/@gusrlf14) 
+- [블로그](https://velog.io/@gusrlf14) 
 </br> 
-- **github**: [hyunghilkim](https://github.com/hyunghilkim) 
+- [github](https://github.com/hyunghilkim) 
 </br> 
 - [프로젝트 회고]()
 
